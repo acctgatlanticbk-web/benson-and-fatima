@@ -321,7 +321,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         {/* Wedding date */}
         <p
           className={`mt-3 mb-9 text-[10px] leading-relaxed font-medium tracking-[0.28em] uppercase sm:text-xs sm:tracking-[0.32em] ${vis(3)}`}
-          style={{ color: "var(--color-motif-silver)" }}
+          style={{ color: "var(--color-motif-cream)" }}
           aria-label={`${siteConfig.ceremony.day}, ${siteConfig.wedding.date} · ${siteConfig.ceremony.time}`}
         >
           <span>{siteConfig.ceremony.day}</span>
@@ -373,7 +373,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
 
           <p
             className={`${cinzel.className} mt-4 tabular-nums text-[10px] tracking-[0.3em] sm:text-[11px]`}
-            style={{ color: "var(--color-motif-silver)" }}
+            style={{ color: "var(--color-motif-cream)" }}
             aria-live="polite"
           >
             {progress}%

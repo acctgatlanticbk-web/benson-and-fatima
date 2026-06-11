@@ -12,7 +12,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 const textColor = "color-mix(in srgb, var(--color-motif-cream) 50%, white)"
-const cardTextColor = "var(--color-motif-soft)"
+const cardTextColor = "var(--color-motif-accent)"
 const accentColor = "var(--color-motif-accent)"
 
 interface Message {

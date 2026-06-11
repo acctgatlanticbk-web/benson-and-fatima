@@ -88,12 +88,12 @@
   --font-serif: "Great Vibes", "Great Vibes Fallback";
 
   /* ─── Motif palette — edit here, affects every component ─── */
-  --color-motif-deep:    #273A5A; /* Midnight Blue */
---color-motif-medium:  #415D8D; /* Dusty Navy */
---color-motif-accent:  #889EB6; /* Dusty Blue */
---color-motif-cream:   #FEDB99; /* Soft Moonlight Cream */
---color-motif-soft:    #8C5E38; /* Misty Dusty Blue */
---color-motif-silver:  #D8DEE6; /* Silver Starlight */
+  --color-motif-deep:    #A02C1D; /* Midnight Blue */
+--color-motif-medium:  #5F6E2D; /* Dusty Navy */
+--color-motif-accent:  #F38013; /* Dusty Blue */
+--color-motif-cream:   #FFFFFF; /* Soft Moonlight Cream */
+--color-motif-soft:    #5A78AE; /* Misty Dusty Blue */
+--color-motif-silver:  #EB3764; /* Silver Starlight */
   /* ─────────────────────────────────────────────────────────── */
   --font-imperial-script: "Imperial Script", cursive;
   --color-background: var(--background);

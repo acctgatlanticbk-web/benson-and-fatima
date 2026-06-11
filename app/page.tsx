@@ -70,7 +70,7 @@ export default function Home() {
   return (
       <div
         className={`relative min-h-screen overflow-hidden font-sans text-charcoal selection:bg-birch selection:text-nut ${
-          enableDecor ? "bg-transparent" : "bg-[#0F1C3F]"
+          enableDecor ? "bg-transparent" : "bg-[#A02C1D]"
         }`}
       >
         {enableDecor && (
@@ -78,7 +78,7 @@ export default function Home() {
             <Silk
               speed={5}
               scale={1.1}
-              color="#0F1C3F"
+              color="#A02C1D"
               noiseIntensity={0.8}
               rotation={0.3}
             />
@@ -96,17 +96,14 @@ export default function Home() {
               {/* Spacer so content starts below fixed navbar (h-12 sm:h-14 md:h-16) */}
               {appState === AppState.DETAILS && <div className="h-12 sm:h-14 md:h-16" aria-hidden />}
               <MainHero />
-              <Welcome />
-              
+              <Welcome />             
                {/* <CoupleVideo />  */}
               {/* <LoveStory /> */}
-
-
               <Countdown />
               {/* <Gallery /> */}
               <VideoMessage />
               <Messages />
-              {/* <Details /> */}
+              <Details />
               {/* <GuestInformation /> */}
               {/* <WeddingPlaylist /> */}
               <Entourage />
@@ -114,11 +111,9 @@ export default function Home() {
               <BookOfGuests />
               <WeddingTimeline />
               {/* <PrincipalSponsors /> */}
-              {/* <FAQ /> */}
-
-              {/* <Registry />
-              <SnapShare /> */}
-
+              <FAQ />
+              <Registry />
+              <SnapShare />
               <Footer />
             </div>
           </div>

@@ -251,7 +251,7 @@ export function BookOfGuests() {
         >
           Our Cherished Guests
         </p>
-        <MotifDivider />
+        {/* <MotifDivider /> */}
         <h2
           className="leading-none"
           style={{
@@ -259,7 +259,8 @@ export function BookOfGuests() {
             fontSize: "clamp(2rem, 9vw, 4.5rem)",
             color: textColor,
             letterSpacing: "0.01em",
-            textShadow: "0 2px 12px color-mix(in srgb, var(--color-motif-soft) 45%, transparent)",
+            textShadow: "0 2px 12px color-mix(in srgb, var(--color-motif-accent) 45%, transparent)",
+            marginTop: "10px",
           }}
         >
           Book of Guests

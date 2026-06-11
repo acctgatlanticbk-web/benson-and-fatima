@@ -78,7 +78,7 @@ function getFaqItems(siteConfig: SiteConfig): FAQItem[] {
         {"\n"}
         If you have questions, message{" "}
         <a
-          href="https://www.facebook.com/elyzha.david"
+          href={`https://www.facebook.com/${siteConfig.couple.groom}`}
           target="_blank"
           rel="noopener noreferrer"
           className="underline font-bold transition-colors hover:opacity-80"
@@ -88,7 +88,7 @@ function getFaqItems(siteConfig: SiteConfig): FAQItem[] {
         </a>{" "}
         or{" "}
         <a
-          href="https://www.facebook.com/KennethJunCajayon"
+          href={`https://www.facebook.com/${siteConfig.couple.groom}`}
           target="_blank"
           rel="noopener noreferrer"
           className="underline font-bold transition-colors hover:opacity-80"

@@ -187,7 +187,7 @@ function MessageForm({ onSuccess, onMessageSent }: MessageFormProps) {
             <div className="space-y-1.5 sm:space-y-2 md:space-y-3">
               <label className={`${cormorant.className} block text-xs sm:text-sm md:text-base font-medium flex items-center gap-1.5 sm:gap-2`} style={{ color: cardTextColor }}>
                 <div className={`w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full flex items-center justify-center transition-all duration-300 ${focusedField === 'name' ? 'scale-110' : ''}`} style={{ backgroundColor: 'color-mix(in srgb, var(--color-motif-accent) 18%, transparent)' }}>
-                  <Heart className="h-2.5 w-2.5 sm:h-3 sm:w-3 md:h-4 md:w-4" style={{ color: accentColor }} />
+                  <Heart className="h-2.5 w-2.5 sm:h-3 sm:w-3 md:h-4 md:w-4" style={{ color: cardTextColor }} />
                 </div>
                 Your Name
               </label>
@@ -202,8 +202,8 @@ function MessageForm({ onSuccess, onMessageSent }: MessageFormProps) {
                   placeholder="Full Name"
                   className={`${cormorant.className} message-form-input w-full border-2 rounded-xl py-2 sm:py-2.5 md:py-3 lg:py-3.5 px-3 sm:px-4 md:px-5 text-xs sm:text-sm md:text-base placeholder:italic transition-all duration-300 bg-white shadow-sm hover:shadow-md focus:shadow-lg ${
                     focusedField === 'name' 
-                      ? 'border-motif-soft focus:border-motif-soft focus:ring-4 focus:ring-motif-accent/25 shadow-lg' 
-                      : 'border-motif-accent/40 hover:border-motif-accent/50'
+                      ? 'border-motif-deep focus:border-motif-deep focus:ring-4 focus:ring-motif-accent/25 shadow-lg' 
+                      : 'border-motif-deep/40 hover:border-motif-deep/50'
                   }`}
                   style={{ color: cardTextColor }}
                 />
@@ -220,7 +220,7 @@ function MessageForm({ onSuccess, onMessageSent }: MessageFormProps) {
               <div className="flex items-center justify-between">
                 <label className={`${cormorant.className} block text-xs sm:text-sm md:text-base font-medium flex items-center gap-1.5 sm:gap-2`} style={{ color: cardTextColor }}>
                   <div className={`w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full flex items-center justify-center transition-all duration-300 ${focusedField === 'message' ? 'scale-110' : ''}`} style={{ backgroundColor: 'color-mix(in srgb, var(--color-motif-accent) 18%, transparent)' }}>
-                    <MessageCircle className="h-2.5 w-2.5 sm:h-3 sm:w-3 md:h-4 md:w-4" style={{ color: accentColor }} />
+                    <MessageCircle className="h-2.5 w-2.5 sm:h-3 sm:w-3 md:h-4 md:w-4" style={{ color: cardTextColor }} />
                   </div>
                   Your Message
                 </label>
@@ -245,8 +245,8 @@ function MessageForm({ onSuccess, onMessageSent }: MessageFormProps) {
                   placeholder={`Write a heartfelt message for ${coupleDisplayName}... share your wishes, memories, or words of love that will be treasured forever 💕`}
                   className={`${cormorant.className} message-form-textarea w-full border-2 rounded-xl min-h-[80px] sm:min-h-[100px] md:min-h-[120px] text-xs sm:text-sm md:text-base placeholder:italic placeholder:leading-relaxed transition-all duration-300 resize-none bg-white shadow-sm hover:shadow-md focus:shadow-lg py-2 sm:py-3 md:py-4 px-3 sm:px-4 md:px-5 ${
                     focusedField === 'message' 
-                      ? 'border-motif-soft focus:border-motif-soft focus:ring-4 focus:ring-motif-accent/25 shadow-lg' 
-                      : 'border-motif-accent/40 hover:border-motif-accent/50'
+                      ? 'border-motif-deep focus:border-motif-deep focus:ring-4 focus:ring-motif-accent/25 shadow-lg' 
+                      : 'border-motif-deep/40 hover:border-motif-deep/50'
                   }`}
                   style={{ color: cardTextColor }}
                 />

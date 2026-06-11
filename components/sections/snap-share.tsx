@@ -6,7 +6,6 @@ import { Instagram, Facebook, Twitter, Share2, Copy, Download, Check } from "luc
 import { Section } from "@/components/section"
 import { QRCodeCanvas } from "qrcode.react"
 import { useSiteConfig } from "@/hooks/use-site-config"
-import Image from "next/image"
 import { Cormorant_Garamond, Cinzel } from "next/font/google"
 
 const cormorant = Cormorant_Garamond({
@@ -247,54 +246,13 @@ export function SnapShare() {
           <div className="mx-auto mt-3 sm:mt-5 h-px w-20 sm:w-24" style={{ backgroundColor: "var(--color-motif-deep)" }} />
         </motion.div>
 
-        <motion.div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-6 lg:gap-10" variants={staggerChildren} initial="initial" animate="animate">
-          <motion.div
-            className="h-full lg:order-1"
-            variants={fadeInUp}
-            whileHover={{ y: -2 }}
-            transition={{ duration: 0.3 }}
-          >
-            <div className="bg-motif-cream/95 rounded-xl sm:rounded-[22px] p-3 sm:p-5 md:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.45)] h-full flex flex-col justify-start border border-motif-deep">
-              <div className="flex flex-col w-full">
-                <h4
-                  className={`${cinzel.className} text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-motif-deep mb-2 sm:mb-4 text-center uppercase`}
-                  style={{ letterSpacing: "0.08em" }}
-                >
-                  Our Favorite Moments
-                </h4>
-                <div className="grid grid-cols-2 gap-1.5 sm:gap-3 md:gap-4">
-                  <motion.div
-                    className="relative aspect-square rounded-lg sm:rounded-xl overflow-hidden shadow-md border-2 border-motif-medium/30 hover:border-motif-medium/50 transition-all"
-                    whileHover={{ scale: 1.03 }}
-                    transition={{ duration: 0.25 }}
-                  >
-                    <Image src="/mobile-background/couples (49).webp" alt="Wedding moment 1" fill className="object-cover" style={{ imageOrientation: "from-image" }} />
-                  </motion.div>
-                  <motion.div
-                    className="relative aspect-square rounded-lg sm:rounded-xl overflow-hidden shadow-md border-2 border-motif-medium/30 hover:border-motif-medium/50 transition-all"
-                    whileHover={{ scale: 1.03 }}
-                    transition={{ duration: 0.25 }}
-                  >
-                    <Image src="/mobile-background/couples (51).webp" alt="Wedding moment 2" fill className="object-cover" style={{ imageOrientation: "from-image" }} />
-                  </motion.div>
-                  <motion.div
-                    className="relative col-span-2 aspect-[3/2] rounded-lg sm:rounded-xl overflow-hidden shadow-md border-2 border-motif-medium/30 hover:border-motif-medium/50 transition-all"
-                    whileHover={{ scale: 1.02 }}
-                    transition={{ duration: 0.25 }}
-                  >
-                    <Image src="/desktop-background/couples (36).webp" alt="Wedding moment 3" fill className="object-cover" />
-                  </motion.div>
-                </div>
-                <p
-                  className={`${cormorant.className} text-motif-medium text-xs sm:text-sm text-center mt-3 sm:mt-5 px-1.5 leading-relaxed`}
-                >
-                  Share your snapshots to be featured in our keepsake gallery.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div className="space-y-3 sm:space-y-5 lg:space-y-6 h-full flex flex-col lg:order-2" variants={fadeInUp}>
+        <motion.div
+          className="max-w-2xl md:max-w-3xl mx-auto space-y-3 sm:space-y-5 lg:space-y-6"
+          variants={staggerChildren}
+          initial="initial"
+          animate="animate"
+        >
+          <motion.div className="space-y-3 sm:space-y-5 lg:space-y-6 flex flex-col" variants={fadeInUp}>
             <div className="flex-1">
               <div className="bg-motif-cream/95 rounded-xl sm:rounded-[22px] p-3 sm:p-5 md:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.25)] text-center h-full flex flex-col border border-motif-deep">
                 <h4

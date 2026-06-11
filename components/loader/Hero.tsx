@@ -11,13 +11,13 @@ interface HeroProps {
 
 const palette = {
   cream: 'var(--color-motif-cream)',
-  soft: 'var(--color-motif-soft)',
+  soft: 'var(--color-motif-deep)',
 };
 
 const textColor = 'color-mix(in srgb, var(--color-motif-cream) 50%, white)';
 
 
-const BACKGROUND_VIDEO = '/background_music/backgroundLoop.mp4';
+const BACKGROUND_VIDEO = '/background_music/Falling Autumn Leaves Background Loop - Backgrounds (720p).mp4';
 
 export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
   const siteConfig = useSiteConfig();

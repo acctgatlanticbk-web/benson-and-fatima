@@ -25,7 +25,7 @@ const playlistScriptStyle = {
 const textColor = "color-mix(in srgb, var(--color-motif-cream) 50%, white)"
 
 const primaryBtnClass =
-  "cursor-pointer rounded-full border border-motif-soft bg-motif-soft px-5 py-3 text-[9px] font-bold tracking-[0.16em] uppercase shadow-[0_8px_24px_rgba(15,28,63,0.18)] transition-all duration-300 hover:bg-[color-mix(in_srgb,var(--color-motif-soft)_85%,black)] hover:border-[color-mix(in_srgb,var(--color-motif-soft)_85%,black)] hover:shadow-xl hover:-translate-y-0.5 sm:px-7 sm:py-3.5 sm:text-[10px] sm:tracking-[0.18em] md:px-8 md:py-4 md:text-[11px]"
+  "cursor-pointer rounded-full border border-motif-accent bg-motif-accent px-5 py-3 text-[9px] font-bold tracking-[0.16em] uppercase shadow-[0_8px_24px_rgba(15,28,63,0.18)] transition-all duration-300 hover:bg-[color-mix(in_srgb,var(--color-motif-accent)_85%,black)] hover:border-[color-mix(in_srgb,var(--color-motif-accent)_85%,black)] hover:shadow-xl hover:-translate-y-0.5 sm:px-7 sm:py-3.5 sm:text-[10px] sm:tracking-[0.18em] md:px-8 md:py-4 md:text-[11px]"
 
 function MotifDivider() {
   return (

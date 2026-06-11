@@ -5,11 +5,11 @@ import {
 
 export const siteConfig = {
   couple: {
-    bride: "Karla Kaye Bastida", //Noenyl Bryle M. Gonzaga
-    brideNickname: "Kaye", //Ltryl
-    groom: "Engr. Felix Marturillas Jr", //Ltryl B. Benitez
-    groomNickname: "Felix",
-    monogram:"/monogram/new-monogram.png" ,//Ltryl
+    bride: "Fatima Calbay", //Noenyl Bryle M. Gonzaga
+    brideNickname: "Fatima", //Ltryl
+    groom: "Mark Benson Mariñas", //Ltryl B. Benitez
+    groomNickname: "Mark",
+    monogram:"/monogram/monogram.png" ,//Ltryl
     backgroundMusic:"/background_music/PALAGI (Wedding Version) - TJ Monterde  OFFICIAL AUDIO.mp3"
   },
   googleAPI:{
@@ -25,9 +25,9 @@ export const siteConfig = {
     googleShare: "https://docs.google.com/spreadsheets/d/1pDrDKrfwtEbFZHfQnxyp8ALxxC59ymURp9D91jdwqAM/edit?usp=sharing", //done
   },
   wedding: {
-    date: "April 11, 2027",
-    time: "2:00 PM",
-    venue: "",
+    date: "August 09, 2026",
+    time: "1:00 PM",
+    venue: "Diocesan Shrine & Parish of Sagrado Corazon de Jesus",
     tagline: "are getting married!",
     theme: "Our wedding palette is inspired by timeless elegance and warmth.Motif Colors: Champagne Gold, Soft Beige, Warm Soft Brown",
     motif: "#BBCED5, #B9C3A8, #F3D8C5, #D1C4D4, #ECD8BA, #F4E8D8, #E1DCCF",
@@ -40,7 +40,7 @@ export const siteConfig = {
   },
   details: {
     rsvp: {
-      deadline: "",
+      deadline: "August 05, 2026",
       contact: "Karla Kaye Bastida",
       phone: "+63 956 482 5255",
     },
@@ -65,24 +65,24 @@ export const siteConfig = {
     }
   },
   ceremony: {
-    location: "",
-    venue: "",
-    map: "https://maps.app.goo.gl/c7jCXMkPfqfU2txe6",
-    date: "April 11, 2027",
+    location: "Diocesan Shrine & Parish of Sagrado Corazon de Jesus",
+    venue: " Diocesan Shrine & Parish of Sagrado Corazon de Jesus, San Rafael, Bulacan",
+    map: "https://maps.app.goo.gl/6iBR1SrKufHnWAF87",
+    date: "August 09, 2026",
     day: "Sunday",
-    time: "3:00 PM",
+    time: "1:00 PM",
     entourageTime: "2:00 PM",
     guestsTime: "2:30 PM",
-    image: "/Details/ceremony_1.webp",
+    image: "/Details/ceremonyone.png",
   },
   reception: {
-    location: "",
-    venue: "",
-    map: "https://maps.app.goo.gl/13V2x6vJxYe5q3W16",
-    date: "April 11, 2027",
+    location: "Hacienda Angelita Nature Farm & Resort",
+    venue: "Hacienda Angelita Nature Farm & Resort, San Rafael, Bulacan",
+    map: "https://maps.app.goo.gl/VMCpWcYtihBPZxCJ6",
+    date: "August 09, 2026",
     day: "Sunday",
     time: "5:30 PM",
-    image: ["/Details/recepton_1.webp","/Details/reception_2.webp"],
+    image: ["/Details/reception.png","/Details/receptiontwo.png"],
   },
   dressCode: {
       theme: "SEMI-FORMAL",
@@ -92,21 +92,21 @@ export const siteConfig = {
       female: "Guests are kindly requested to wear attire in any of the shades within our wedding palette.Color pallet and image to be followed. STRICTLY no shorts, maong jeans, t-shirts, or slippers.",
       notes: "Your Presence will make our day even more special \n Ninong: Formal Wear : Charcoal Gray suid and Slacks, white long sleeves, and burgundy neckite \n Ninang: Long Dress / Formal Dress Burgundy Long Formal Dress.",
       photo: "/Details/sponsors.png",
-      palette: "#E2E5ED, #CED2D8, #B5C1D6,#95A6C7,#8191AC"
+      palette: "#A77258, #D3A388, #E4B293,#E6BBA5,#0B120F, #FFFFFF"
     },
     entourage: {
       gents: "Guests are kindly requested to wear attire in any of the shades within our wedding palette.Color pallet and image to be followed. STRICTLY no shorts, maong jeans, t-shirts, or slippers.",
       ladies: "Guests are kindly requested to wear attire in any of the shades within our wedding palette.Color pallet and image to be followed. STRICTLY no shorts, maong jeans, t-shirts, or slippers.",
       notes: "Your Presence will make our day even more special \n Ninong: Formal Wear : Charcoal Gray suid and Slacks, white long sleeves, and burgundy neckite \n Ninang: Long Dress / Formal Dress Burgundy Long Formal Dress.",
       photo: "/Details/sponsors.png",
-      palette: "#E2E5ED, #CED2D8, #B5C1D6,#95A6C7,#8191AC",
+      palette: "#A77258, #D3A388, #E4B293,#E6BBA5,#0B120F, #FFFFFF",
     },
     guests: {
       gents: "Guests are kindly requested to wear attire in any of the shades within our wedding palette.Color pallet and image to be followed. STRICTLY no shorts, maong jeans, t-shirts, or slippers.",
       ladies: "Guests are kindly requested to wear attire in any of the shades within our wedding palette.Color pallet and image to be followed. STRICTLY no shorts, maong jeans, t-shirts, or slippers.",
       notes: "WE KINDLY ASK OUR GUEST TO WEAR THESE COLORS \n Gentlemen : Long sleeves / suit and slacks \n Ladies : Long Dress / Formal Dress",
       photo: "/Details/guest.png",
-      palette: "#E2E5ED, #CED2D8, #B5C1D6,#95A6C7,#8191AC",
+      palette: "#A02C1D, #5F6E2D, #F38013,#86299C,#5A78AE, #EB3764",
     },
     note: "We kindly request our guests to dress in attire following our wedding palette."
   },
@@ -140,7 +140,7 @@ Now, as they prepare to say yes before God and the people they love most, Cather
   playlist: {
     title: "A Playlist from our hearts",
     subtitle: "Songs that have been part of our journey together",
-    playlistName: "PJ & Nicole Wedding",
+    playlistName: "Fatima & Mark Wedding",
     embedUrl:
       "https://open.spotify.com/embed/playlist/2FUZHCJs6Z5iBvP0rKvQdu?utm_source=generator",
     spotifyUrl: "https://open.spotify.com/playlist/2FUZHCJs6Z5iBvP0rKvQdu",
@@ -149,7 +149,7 @@ Now, as they prepare to say yes before God and the people they love most, Cather
     googleDriveLink:
       "https://weduploader.com/upload/x2kqPwdYOMbQ5Dto?utm_source=site&utm_medium=qrcode&utm_campaign=dashboard&utm_content=x2kqPwdYOMbQ5Dto",
     albumQR: "/QR/AlbumQR.png",
-    hashtag: ["#KaysChapterWithFelix"],
+    hashtag: ["#FatimaAndMarkWedding"],
     instructions: "Please scan this QR Code and upload the photos and videos you have taken during our wedding reception. We are delighted to see your snaps too!",
   },
 }
