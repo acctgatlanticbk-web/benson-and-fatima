@@ -13,16 +13,16 @@ export const siteConfig = {
     backgroundMusic:"/background_music/PALAGI (Wedding Version) - TJ Monterde  OFFICIAL AUDIO.mp3"
   },
   googleAPI:{
-    messageForm: "https://docs.google.com/forms/d/e/1FAIpQLSdddDGJNsAf2bKrOBayXhrd0Tpe8HWA9xskqf-lizr6qngS4A/formResponse",   //done
-    message: "https://script.google.com/macros/s/AKfycbxyv3JVUkCGvuE79LUkzPhYjzNEY9IIdJ71OrVL0lcFRiVyYUP1z2QW4RzDOdL8dV7H/exec",  //done
-    guestList: "https://script.google.com/macros/s/AKfycbyDZ8-58LPAHFvKjeWKvysTgaC1h49mdW2rTgy_yz-LrPIs4r9wHfSf9eJJy85DuFbT/exec",  //done
-    guestRequest: "https://script.google.com/macros/s/AKfycbyhE9XQCO5hu6ZRlz_xa4LtcC3knQQ03IDwinTtxMDnuEz8ig8tkSZfgzn8N8ARLqF_/exec",  //done
-    entourage: "https://script.google.com/macros/s/AKfycbyGlfi9VGZvLTKqnEq8gExPj7hdmHGpf5g_FK_8zqD5ykJVgWqggCwljr7T6YKS8n5n/exec",  //done
-    sponsors: "https://script.google.com/macros/s/AKfycbwe788KcaYXkSdjX1-AsBbhLc8FkU8d7xar-yiScOOFTmHr2pI36sDDj4kDVroqgJ8m/exec",  //done
-    weddingDetails: "https://script.google.com/macros/s/AKfycbyUpOW3O9U3KRUylMnSkVaFcc-LwUv1mkb3d0YrkZwfU31ErCGedIvxrCan8gYllSUZ/exec",   //done
-    proposalResponses: "https://script.google.com/macros/s/AKfycbxrFIvR2m2CbYyS9NE8WOkmw_fQhmCGcyAUpUgyqR75FaMuiKOK9WpGTj7RHughrTI8/exec",  //done
+    messageForm: "https://docs.google.com/forms/d/e/1FAIpQLSclTqh4cauamcT6w78B_mold9SGtW7DMPCz0M_s6H00U0m88A/formResponse",   //done
+    message: "https://script.google.com/macros/s/AKfycbyqASaaewyRchEHx6lqAutX9y0hd74Pcdehgi13KLhLiDmAKp2wIqlOPOF9XsL_1v4QwA/exec",  //done
+    guestList: "https://script.google.com/macros/s/AKfycbzso7ueXNIhdx5y5dhyC2WeEkWZ_8hPjdt7doaZ1CYzyUPdtdon3hAJLATKg6a15I3eIQ/exec",  //done
+    guestRequest: "https://script.google.com/macros/s/AKfycbwbxvkCXMdkU6kdBgrakwdOL4AaS_1S-m_eElKn4qr6zUIa9vxUMat7NloV17Qh2dJfjg/exec",  //done
+    entourage: "https://script.google.com/macros/s/AKfycbwRBthbhmuAfG8iq5HSUUX7FFjRnsxIudlVW1BkHD0ZCN6Gnnq7i6Hmq3DcbZsS_A_zOQ/exec",  //done
+    sponsors: "https://script.google.com/macros/s/AKfycbwKBdY2Ejo4qVyDICrin5NsY0xipHpSi9K1jGYqNbjuRp66A6ozPkaSz52AHCZJ1aHQBw/exec",  //done
+    weddingDetails: "https://script.google.com/macros/s/AKfycbxaqI7i5obFras3OLFKWZglfBFDMv7uc-pLZ1bu494YNRWBOyi8GpDd-U3R2Q23dlhCVw/exec",   //done
+    proposalResponses: "https://script.google.com/macros/s/AKfycbwSlPEGkg_9K_OY0lqPnlkLg7hnSdQP0ZASR06dJQW5tT5ADsobyVfIevQAfDoggVxO1Q/exec",  //done
 ////google share 
-    googleShare: "https://docs.google.com/spreadsheets/d/1pDrDKrfwtEbFZHfQnxyp8ALxxC59ymURp9D91jdwqAM/edit?usp=sharing", //done
+    googleShare: "https://docs.google.com/spreadsheets/d/1f-Ny_VAsH9CI-zk46vauYS0H2XKphUN0_tYlDwz1j80/edit?usp=sharing", //done
   },
   wedding: {
     date: "August 09, 2026",
@@ -147,7 +147,7 @@ Now, as they prepare to say yes before God and the people they love most, Cather
   },
   snapShare: {
     googleDriveLink:
-      "https://weduploader.com/upload/x2kqPwdYOMbQ5Dto?utm_source=site&utm_medium=qrcode&utm_campaign=dashboard&utm_content=x2kqPwdYOMbQ5Dto",
+      "https://drive.google.com/drive/folders/1Ujxcr00PqehIxfjvSJDGXu9EIszZT6SQ?usp=sharing",
     albumQR: "/QR/AlbumQR.png",
     hashtag: ["#FatimaAndMarkWedding"],
     instructions: "Please scan this QR Code and upload the photos and videos you have taken during our wedding reception. We are delighted to see your snaps too!",

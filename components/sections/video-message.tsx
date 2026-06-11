@@ -16,7 +16,7 @@ const cinzel = Cinzel({
 })
 
 const DRIVE_URL =
-  "https://drive.google.com/drive/folders/1rWdBfXKWvD03kClL949SL5tolJwfhajh?usp=sharing"
+  "https://drive.google.com/drive/folders/1Ujxcr00PqehIxfjvSJDGXu9EIszZT6SQ?usp=sharing"
 
 export function VideoMessage() {
   return (
