@@ -51,6 +51,7 @@ export default function Home() {
                {/* <CoupleVideo />  */}
               {/* <LoveStory /> */}
             <Countdown />
+            <Gallery />
             <Entourage />
             <Details />
             <Messages />
